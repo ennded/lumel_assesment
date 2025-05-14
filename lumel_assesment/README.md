@@ -25,19 +25,18 @@ A robust backend API for processing and analyzing sales data from CSV files, wit
 ### Installation
 
 ```bash
-# Clone repository
-git clone https://github.com/ennded/lumel_assesment/tree/main/lumel_assesment.git
-cd lumel_assesment
-# Install MongoDB
+# 1. Clone the repository
+git clone https://github.com/ennded/lumel_assesment.git
 
+# 2. Navigate into the project folder
+cd lumel_assesment/lumel_assesment
 
-# Install dependencies
+# 3. Install dependencies
 npm install
 
-
-# Edit .env with your MongoDB URI
-# Start the server
+# 4. Start the server
 npm node app.js
+
 ```
 
 ### API Endpoints
